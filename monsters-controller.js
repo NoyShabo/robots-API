@@ -23,7 +23,7 @@ function renderMonsters(res) {
                 <h5><span>state:</span> ${monster.state}</h5>
                 <h5><span>zip:</span> ${monster.zip}</h5>
             </div>
-            <img src="https://robohash.org/${monster.fname}?set=set1" alt="monster">
+            <img src="http://robohash.org/${monster.fname}?set=set1" alt="monster">
         </div>
     </div>`
     });
