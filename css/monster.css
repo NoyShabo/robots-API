@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: light;
+    src: url(../fonts/ZenKakuGothicAntique-Light.ttf);
+}
+
+body {
+    font-family: light;
+    margin: 0;
+    text-align: center;
+}
+
+.allMonsters {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 340px));
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    margin: 0;
+    background-color: rgba(137, 145, 145, 0.233);
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 0;
+    background-color: lightcoral;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border: white 5px solid;
+    padding: 20px;
+}
+
+.card-contant {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.card-contant h5 {
+    margin: 5px 0 0 0;
+    font-size: 0.7rem;
+}
+
+.monster-info span {
+    padding-left: 20px;
+    padding-right: 10px;
+    color: red;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
